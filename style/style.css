@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-.hero{
-    background-image: url('../image/cow.jpg');
-    background-position: bottom center;
-    background-size: cover;
-    height: 100vh;
-}
 *{
     margin: 0;
     padding: 0;
@@ -70,6 +64,13 @@
       }
       
 }
+.hero{
+  background-image: url('../image/cow.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
 .hero h1{
     color: azure;
     font-size: 100px;
@@ -87,13 +88,10 @@
     margin-top: 60px;
     margin-bottom: 60px; */
     margin: 60px auto;
-    background-color: rgb(11, 239, 255);
     padding: 60px;
-    border-width: 15px;
-    border-color: yellow;
-    border-style: groove;
+    background: linear-gradient(45deg,pink, blue);
 }
-.article h2{
+.article h2, #cow-type h2{
   text-align: center;
   font-size: 48px;
   border-bottom: 2px;
@@ -116,4 +114,17 @@
   width: 600px;
   display: inline;
 
+}
+
+.cow-images{
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-around;
+}
+.cow-images div{
+  width: 300px;
+}
+.cow-images img{
+  width: 100%;
 }
