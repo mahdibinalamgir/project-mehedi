@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.hero{
+    background-image: url('../image/cow.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    .lato-thin {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .lato-light {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .lato-bold {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .lato-black {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .lato-thin-italic {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .lato-light-italic {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .lato-regular-italic {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .lato-bold-italic {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .lato-black-italic {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+}
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 60px;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+    font-family:cursive;
+}
+.article, #cow-type{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: rgb(11, 239, 255);
+    padding: 60px;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: groove;
+}
+.article h2{
+  text-align: center;
+  font-size: 48px;
+  border-bottom: 2px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: 15px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+}
+.article p{
+  font-size: 28px;
+  line-height: 1em;
+}
+.article p .imp{
+  font-size: 1em;
+  background-color: yellow;
+  width: 600px;
+  display: inline;
+
+}
